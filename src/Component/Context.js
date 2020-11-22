@@ -37,33 +37,33 @@ export  class Provider extends Component {
   state={
     contact: [
 
-        { 
-            id:1,
-        name:"Isiaka Abdulahi",
-        email:"isiakaabd@gmail.com",
-        number: "+2347033637349",
-        address:"Up Zango Lokoja",
-        Country: "Nigeria",
-        religion :"christian"
-        },
-        {
-            id:2,
-            name:"Isiaka Nusaybah",
-            email:"isiakaabd2018@gmail.com",
-            number: "12345",
-            address:"Up Zango Lokoja",
-            Country:"Ghana",
-            religion :"christian"
-            },
-            {
-                id:3,
-                name:"Isiaka Nusaybah",
-                email:"isiakaabd2020@gmail.com",
-                number: "98912345",
-                address:"down Zango Lokoja",
-                Country:"Togo",
-                religion :"Traditional"
-                },
+        // { 
+        //     id:1,
+        // name:"Isiaka Abdulahi",
+        // email:"isiakaabd@gmail.com",
+        // number: "+2347033637349",
+        // address:"Up Zango Lokoja",
+        // Country: "Nigeria",
+        // religion :"christian"
+        // },
+        // {
+        //     id:2,
+        //     name:"Isiaka Nusaybah",
+        //     email:"isiakaabd2018@gmail.com",
+        //     number: "12345",
+        //     address:"Up Zango Lokoja",
+        //     Country:"Ghana",
+        //     religion :"christian"
+        //     },
+        //     {
+        //         id:3,
+        //         name:"Isiaka Nusaybah",
+        //         email:"isiakaabd2020@gmail.com",
+        //         number: "98912345",
+        //         address:"down Zango Lokoja",
+        //         Country:"Togo",
+        //         religion :"Traditional"
+        //         },
     ],
     dispatch: action => this.setState(state=> reducer(state,action))
     

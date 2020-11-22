@@ -110,7 +110,7 @@ this.setState({
 
                                               {/*Name Input  field  */}
                             <TextInputList 
-                            label= "Name" 
+                          label= "Name" 
                             placeholder ="Enter Your Name"
                             name = "name"
                             className ="form-control form-control-lg"
